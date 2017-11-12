@@ -46,7 +46,7 @@ $(function() {
         });
 
         it('load success', function (done) {
-            expect($('.feed .entry-link').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
             done();
         });
 
